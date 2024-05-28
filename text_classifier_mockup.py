@@ -5,7 +5,7 @@ from textblob import TextBlob
 
 # Load English tokenizer, tagger, parser, NER, and word vectors
 nlp = spacy.load("en_core_web_sm")
-
+st.set_page_config(page_title="Text SentimentSense", page_icon=":💭:")
 # Set page title and description
 st.title("Customer Review Sentiment Analysis")
 st.write("""
